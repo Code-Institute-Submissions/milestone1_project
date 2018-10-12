@@ -1,0 +1,54 @@
+/*Google Fonts URL*/
+@import url('https://fonts.googleapis.com/css?family=Lobster:100,200,300,400,500,600,700,800|Roboto:100,200,300,400,500,600,700,800,900');
+
+    .lobster{
+    font-family: "Lobster", cursive;
+    }
+    .roboto{
+    font-family: "Roboto", sans-serif;
+    }
+/*----COLORS-----*/
+/*
+ --NavyBlue:#091534;
+ --DarkBlue: #1440B8;
+ --BrightBlue:#0247FE;
+ --Orange:#FB9902;
+ --Peach:#F7E9D4;
+*/
+
+/*-----Global Colours----*/
+header, footer{
+    background-color: #091534;
+    color:#FB9902;
+}
+
+
+
+
+
+
+
+/****FOOTER STYLING******/
+footer{
+    display:flex;
+}
+footer h3{
+    display:block;
+}
+footer ul {
+    list-style-type:none;
+}
+footer ul li{
+    display:inline-block;
+    padding:10px 15px;
+    border-radius:50px;
+    border-color:#FB9902;
+    border:1px #FB9902 solid;
+}
+footer a{
+    color:#F7E9D4;
+}
+footer #information_links{
+    justify-content:right;
+    
+}
