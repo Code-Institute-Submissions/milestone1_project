@@ -63,6 +63,30 @@ h2,h3,h4,h5,h6{
     display:flex;
     
 }
+#aboutus{
+    background-color:#F7E9D4; 
+}
+#aboutus p{
+    text-align: center;
+}
+.band_member{
+    margin-bottom:4rem;
+    height:35rem;
+}
+.band_member .well{
+    width:60%;
+    height:25em;
+    
+}
+.band_member .well dl{
+    display: table-cell
+}
+.band_member .well dl dd{
+    display:inline-block;
+}
+.band_member .well dl dt:not(.bio){
+    display:block;
+}
 #media{
     min-height: 1px;
 }
@@ -150,5 +174,13 @@ footer ul li a:hover{
         margin-left: auto;
         margin-right:auto;
     }
+    .band_member .well{
+        height:25em;
+    }
     
+}
+@media(min-width:920px){
+    .band_member {
+        height:35rem;
+    }
 }
