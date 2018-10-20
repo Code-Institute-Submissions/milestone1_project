@@ -17,6 +17,10 @@
 */
 body{
     margin:0;
+    
+}
+.seperator{
+    border-bottom: 3px dashed #FB9902;
 }
 /*-----Global Colours----*/
 header,header div.row, footer, footer div.row{
@@ -50,8 +54,34 @@ nav ul li a:hover{
     background-color:#FB9902;
     color:#091534;
 }
+/****MAIN CONTENT******/
+h2,h3,h4,h5,h6{
+    text-align: center;
+    color:#FB9902;
+}
+.content{
+    display:flex;
+    
+}
+#media{
+    min-height: 1px;
+}
 
-
+#media .row h3{
+    text-align: center;
+    padding:5px 5px;
+}
+#media .row p{
+    text-align: center
+}
+.media_content{
+    margin-bottom:5rem;
+    
+}
+.well-peach{
+    background-color: #F7E9D4;
+    color:#1440B8;
+}
 /****FOOTER STYLING******/
 
 footer ul{
