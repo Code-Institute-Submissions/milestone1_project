@@ -55,6 +55,8 @@ nav ul li a:hover{
     color:#091534;
 }
 /****MAIN CONTENT******/
+
+/*-----GENERAL------*/
 h2,h3,h4,h5,h6{
     text-align: center;
     color:#FB9902;
@@ -66,6 +68,8 @@ h2,h3,h4,h5,h6{
     display:flex;
     
 }
+
+/********ABOUT US SECTION************/
 #aboutus{
     background-color:#F7E9D4; 
 }
@@ -90,6 +94,7 @@ h2,h3,h4,h5,h6{
 .band_member .well dl dt:not(.bio){
     display:block;
 }
+/******MEDIA SECTION**********/
 #media{
     min-height: 1px;
 }
@@ -109,6 +114,13 @@ h2,h3,h4,h5,h6{
     background-color: #F7E9D4;
     color:#1440B8;
 }
+
+/*******VIDEO ROW********/
+#video_container{
+    background-color: #0247FE;
+    padding-bottom: 6rem;
+}
+
 /****FOOTER STYLING******/
 
 footer ul{
