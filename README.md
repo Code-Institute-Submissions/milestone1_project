@@ -14,8 +14,9 @@ From a coding perspective, it also makes it simpler to maintain, as a link would
 
 For the general design (See the Design Documents Section), I went with a standard Header and Footer with a menu bar situated just below the header. Initially I did plan for a header image to appear at the top of the page, but after reviewing the planned image ('assets/images/monkees.jpg'),this would not fit with the view that I had.
 
-The color scheme
+Considering that the main target of this website is for fans, A static header and footer seemed to be the best method, particulaly since there was a permanent link to the booking form in the footer. 
 
+The color scheme was generated using a w3 schools tool (See the **Tools** Section)
 ### User Stories
 
 - As a event organiser, I want to book them for my event, so that I can then state that they would be playing live on the night.
