@@ -168,6 +168,8 @@ footer ul li a:hover{
         display:inline-flex;
         margin-top:2rem;
         font-size:20px;
+        
+        float:right !important;
     }
     
     footer i{
@@ -195,6 +197,9 @@ footer ul li a:hover{
     
 }
 @media(min-width:920px){
+    .navbar-nav{
+        letter-spacing: 5px;
+    }
     .band_member {
         height:35rem;
     }
