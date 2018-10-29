@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/images/monkees.jpg">
     <title>The Monkees</title>
     <!--Bootstrap-->
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -17,7 +19,7 @@
     <div class="container-fluid">
     <header>
     <div class="row">
-        <nav class="navbar">
+        <nav class="navbar navbar-fixed-top">
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -28,18 +30,17 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li><a href=""><i class="fas fa-home"></i></i>Home</a></li>
+                <li><a href="#top"><i class="fas fa-home"></i></i>Home</a></li>
                 <li><a href="#aboutus"><i class="fas fa-info-circle"></i>About Us</a></li>
                 <li><a href="#media"><i class="fas fa-camera"></i>Media</a></li>
-                <li><a href=""><i class="far fa-calendar-alt"></i>Events</a></li>
-                <li><a href=""><i class="far fa-envelope"></i>Book Us</a></li>
+                <li><a href="#contact_section"><i class="far fa-envelope"></i>Book Us</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
     </div>
     </header>
-    <main>
+    <main id="top">
         <div class="row">
             <div class="container-fluid">
                 <!--<img id="header-img" src="assets/images/monkees.jpg" alt="The Monkees band photo" class="img-responsive">-->
@@ -121,14 +122,6 @@
         <div class="row">
             <div class="container-fluid">
                 <div id="media">
-                    <!--<div class="row">-->
-                    <!--    <h2 class="lobster">Album History</h2>-->
-                    <!--    <p class="roboto">Below is the timeline for all of our album releases</p>-->
-                    <!--    <ul>-->
-                    <!--        <li><img src="assets/images/album.jpg"></img>More Greatest Hits of the Monkees - 1982</li>-->
-                    <!--        <li><img src="assets/images/album2.jpg"></img>The Very Best of the Monkees - 2006</li>-->
-                    <!--     </ul>   -->
-                    <!--</div>-->
                     <div class="row">
                         <h2 class="lobster">Song Repository</h2>
                         <div class="media_content col-xs-12 col-md-6 col-sm-6 col-lg-3">
@@ -320,7 +313,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="form-container col-lg-4 col-lg-offset-4">
+            <div id="contact_section" class="form-container col-lg-4 col-lg-offset-4">
                 <h2 class="lobster">Book Us</h2>
                 <form action="" id="contactform" method="POST">
                     <div class="form-group">
@@ -337,6 +330,7 @@
                     </div>
                     <div class="form-group">
                         <input type="submit" class="btn btn-success" value="Contact Us"/>
+                        <input type="reset" class="btn btn-danger" value="Clear Form"/>
                     </div>
                 </form>
             </div>
@@ -347,14 +341,14 @@
            <div class="container-fluid col-sm-6 col-md-6 col-lg-6">
                 <h3 class="lobster">Social Media</h3>
                 <ul>
-                    <li class="social_icon col-xs-12 col-md-4 col-sm-4"><a href="#"><i class="fab fa-facebook-square"></i><span class="sr-only">Facebook</span></a></li>
-                    <li class="social_icon col-xs-12 col-md-4 col-sm-4"><a href="#"><i class="fab fa-twitter-square"></i><span class="sr-only">Twitter</span></a></li>
-                    <li class="social_icon col-xs-12 col-md-4 col-sm-4"><a href="#"><i class="fab fa-youtube-square"></i><span class="sr-only">Youtube</span></a></li>
+                    <li class="social_icon col-xs-12 col-md-4 col-sm-4"><a href="https://www.facebook.com" target="__blank"><i class="fab fa-facebook-square"></i><span class="sr-only">Facebook</span></a></li>
+                    <li class="social_icon col-xs-12 col-md-4 col-sm-4"><a href="https://www.twitter.com" target="__blank"><i class="fab fa-twitter-square"></i><span class="sr-only">Twitter</span></a></li>
+                    <li class="social_icon col-xs-12 col-md-4 col-sm-4"><a href="https://www.youtube.com" target="__blank"><i class="fab fa-youtube-square"></i><span class="sr-only">Youtube</span></a></li>
                 </ul>
             </div>
             <div id="footer-right" class="container-fluid col-sm-6 col-md-6 col-lg-6">
                 <h3 class="lobster">Want to book us for an event?</h3>
-                <a class="col-xs-12 col-lg-4 col-lg-offset-4 btn btn-danger" href="#">CONTACT US</a>
+                <a class="col-xs-12 col-lg-4 col-lg-offset-4 btn btn-danger" href="#contact_section">CONTACT US</a>
             </div>
         </div>
         
