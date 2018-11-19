@@ -17,6 +17,8 @@
 */
 body{
     margin:0;
+    /*Needed due to fixed navbar*/
+    padding-top: 70px;
    
 }
 .seperator{
@@ -172,7 +174,6 @@ footer ul li a:hover{
         display:inline-flex;
         margin-top:2rem;
         font-size:20px;
-        
         float:right !important;
     }
     

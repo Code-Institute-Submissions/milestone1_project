@@ -71,8 +71,12 @@ In this section, you should mention all of the languages, frameworks, libraries,
 - [W3 Schools Color Scheme - Triadic](https://www.w3schools.com/colors/colors_triadic.asp)
     - I used this tool to help me create a color scheme for use in the site.
 - [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables#)
-    - Used to generate the table in the 'testing' part of this readme 
+    - Used to generate the table in the 'testing' part of this readme.
+    
 ## Testing
+
+
+
 
 
 | Test Number 	| Section of the site 	| What Should Happen 	| What Actually Happened 	| Actions to Take (If Any) 	|
@@ -93,6 +97,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 | 14          	|                     	|                    	|                        	|                          	|
 | 15          	|                     	|                    	|                        	|                          	|
 | 16          	|                     	|                    	|                        	|                          	|
+
+
 ## Deployment
 
 ### Github Deployment 
