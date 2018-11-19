@@ -30,7 +30,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li><a href="#top"><i class="fas fa-home"></i></i>Home</a></li>
+                <li><a href="#top"><i class="fas fa-home"></i>Home</a></li>
                 <li><a href="#aboutus"><i class="fas fa-info-circle"></i>About Us</a></li>
                 <li><a href="#media"><i class="fas fa-camera"></i>Media</a></li>
                 <li><a href="#contact_section"><i class="far fa-envelope"></i>Book Us</a></li>
@@ -56,12 +56,12 @@
                                     <div class="well center-block">
                                         <img class="img-responsive center-block" alt="Photo of Peter Tork" src="assets/images/pt.jpg"/>
                                         <dl class="memberinfo">
-                                            <dd>Name:</dd>
-                                            <dt>Peter Tork</dt>
-                                            <dd>Role:</dd>
-                                            <dt>Keyboardist, bass guitarist</dt>
-                                            <dd>Bio:</dd>
-                                            <dt></dt>
+                                            <dt>Name:</dt>
+                                            <dd>Peter Tork</dd>
+                                            <dt>Role:</dt>
+                                            <dd>Keyboardist, bass guitarist</dd>
+                                            <dt>Bio:</dt>
+                                            <dd></dd>
                                         </dl>
                                     </div>
                                 </div>
@@ -88,7 +88,7 @@
                                     <div class="well center-block">
                                         <img class="img-responsive center-block" alt="Photo of Michael Nesmith" src="assets/images/mn.jpg"/>
                                         <dl class="memberinfo">
-                                            <dt>Name:</dd>
+                                            <dt>Name:</dt>
                                             <dd>Michael Nesmith</dd>
                                             <dt>Role:</dt>
                                             <dd>Guitarist and vocals</dd>
@@ -126,7 +126,9 @@
                         <h2 class="lobster">Song Repository</h2>
                         <div class="media_content col-xs-12 col-md-6 col-sm-6 col-lg-3">
                         <header><h2>Clarksville</h2></header>
-                        <audio class="center-block" controls src="assets/audio/Clarksville.mp3" type="audio/mpeg"></audio>
+                        <audio class="center-block" controls>
+                            <source src="assets/audio/Clarksville.mp3" type="audio/mpeg">
+                        </audio>
                         <footer>
                             <h3 data-toggle="collapse" data-target="#Clarksville_Lyrics" aria-expanded="false">Lyrics&nbsp;<i class="fas fa-chevron-down"></i></h3>
                             <div class="collapse" id="Clarksville_Lyrics">
@@ -170,7 +172,9 @@
                         </div>
                         <div class="media_content col-xs-12 col-md-6 col-sm-6 col-lg-3">
                         <header><h2>Daydream Believer</h2></header>
-                        <audio class="center-block" controls src="assets/audio/DaydreamBeliever.mp3" type="audio/mpeg"></audio>
+                        <audio class="center-block" controls>
+                            <source src="assets/audio/DaydreamBeliever.mp3" type="audio/mpeg">
+                        </audio>
                         <footer>
                             <h3 data-toggle="collapse" data-target="#DaydreamBeliever_Lyrics" aria-expanded="false">Lyrics&nbsp;<i class="fas fa-chevron-down"></i></h3>
                             <div class="collapse" id="DaydreamBeliever_Lyrics">
@@ -217,7 +221,9 @@
                         </div>
                         <div class="media_content col-xs-12 col-md-6 col-sm-6 col-lg-3">
                         <header><h2>I'm a Believer</h2></header>
-                        <audio class="center-block" controls src="assets/audio/ImABeliever.mp3" type="audio/mpeg"></audio>
+                        <audio class="center-block" controls>
+                            <source src="assets/audio/ImABeliever.mp3" type="audio/mpeg">
+                        </audio>
                         <footer>
                             <h3 data-toggle="collapse" data-target="#Believer_Lyrics" aria-expanded="false">Lyrics&nbsp;<i class="fas fa-chevron-down"></i></h3>
                             <div class="collapse" id="Believer_Lyrics">
@@ -262,7 +268,9 @@
                         </div>
                         <div class="media_content col-xs-12 col-md-6 col-sm-6 col-lg-3">
                         <header><h2>Stepping Stone</h2></header>
-                        <audio class="center-block" controls src="assets/audio/SteppingStone.mp3" type="audio/mpeg"></audio>
+                        <audio class="center-block" controls>
+                            <source src="assets/audio/SteppingStone.mp3" type="audio/mpeg">
+                        </audio>
                         <footer>
                             <h3 data-toggle="collapse" data-target="#SteppingStone_Lyrics" aria-expanded="false">Lyrics&nbsp;<i class="fas fa-chevron-down"></i></h3>
                             <div class="collapse" id="SteppingStone_Lyrics">
@@ -315,18 +323,18 @@
         <div class="row">
             <div id="contact_section" class="form-container col-lg-4 col-lg-offset-4">
                 <h2 class="lobster">Book Us</h2>
-                <form action="" id="contactform" method="POST">
+                <form action="#" id="contactform" method="POST">
                     <div class="form-group">
                         <label for="contact_Name">Your Name</label>
                         <input class="form-control" type="text" name="contact_Name" id="contact_Name" placeholder="Enter your Name" required/>
                     </div>
                     <div class="form-group">
                         <label for="contact_email">Your Email</label>
-                        <input class="form-control" type="email" name="contact_Name" id="contact_Name" placeholder="Enter your Email" required/>
+                        <input class="form-control" type="email" name="contact_email" id="contact_email" placeholder="Enter your Email" required/>
                     </div>
                     <div class="form-group">
                         <label for="contact_message">What would you like to book us for</label>
-                        <textarea name="contact_message" cols="50" rows="10"></textarea>
+                        <textarea id="contact_message" name="contact_message" cols="50" rows="10"></textarea>
                     </div>
                     <div class="form-group">
                         <input type="submit" class="btn btn-success" value="Contact Us"/>
@@ -341,9 +349,9 @@
            <div class="container-fluid col-sm-6 col-md-6 col-lg-6">
                 <h3 class="lobster">Social Media</h3>
                 <ul>
-                    <li class="social_icon col-xs-12 col-md-4 col-sm-4"><a href="https://www.facebook.com" target="__blank"><i class="fab fa-facebook-square"></i><span class="sr-only">Facebook</span></a></li>
-                    <li class="social_icon col-xs-12 col-md-4 col-sm-4"><a href="https://www.twitter.com" target="__blank"><i class="fab fa-twitter-square"></i><span class="sr-only">Twitter</span></a></li>
-                    <li class="social_icon col-xs-12 col-md-4 col-sm-4"><a href="https://www.youtube.com" target="__blank"><i class="fab fa-youtube-square"></i><span class="sr-only">Youtube</span></a></li>
+                    <li class="social_icon col-xs-12 col-md-4 col-sm-4"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i><span class="sr-only">Facebook</span></a></li>
+                    <li class="social_icon col-xs-12 col-md-4 col-sm-4"><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i><span class="sr-only">Twitter</span></a></li>
+                    <li class="social_icon col-xs-12 col-md-4 col-sm-4"><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i><span class="sr-only">Youtube</span></a></li>
                 </ul>
             </div>
             <div id="footer-right" class="container-fluid col-sm-6 col-md-6 col-lg-6">
