@@ -88,23 +88,23 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 | Test Number 	| Section of the site 	| What Should Happen 	| What Actually Happened 	| Actions to Take (If Any) 	|
 |-------------	|---------------------	|--------------------	|------------------------	|--------------------------	|
-| 1           	|                     	|                    	|                        	|                          	|
-| 2           	|                     	|                    	|                        	|                          	|
-| 3           	|                     	|                    	|                        	|                          	|
-| 4           	|                     	|                    	|                        	|                          	|
-| 5           	|                     	|                    	|                        	|                          	|
-| 6           	|                     	|                    	|                        	|                          	|
-| 7           	|                     	|                    	|                        	|                          	|
-| 8           	|                     	|                    	|                        	|                          	|
-| 9           	|                     	|                    	|                        	|                          	|
-| 10          	|                     	|                    	|                        	|                          	|
-| 11          	|                     	|                    	|                        	|                          	|
-| 12          	|                     	|                    	|                        	|                          	|
-| 13          	|                     	|                    	|                        	|                          	|
-| 14          	|                     	|                    	|                        	|                          	|
-| 15          	|                     	|                    	|                        	|                          	|
-| 16          	|                     	|                    	|                        	|                          	|
-
+| 1           	| Navigation  - Home link      | Page should jump to Home section                   	|                        	|                          	|
+| 2           	| Navigation - About us link                  	|  Page should jump to About Us section                  	|        	|            |
+| 3           	| Navigation - Media link                    	|  Page should jump to Media section                  	|           	|                          	|
+| 4           	| Navigation - Contact us link               	|   Page should jump to Contact Us form section   	|           	|                          	|
+| 5           	| Functionality - dropdown                   	| Dropdown should expand  	|                        	|                          	|
+| 6           	| Functionality - Audio Player - Play Button  | Audio linked to the player should play |                        	|                          	|
+| 7           	| Functionality - Audio Player - position slider | Track should go to selected spot within the track|                        	|                          	|
+| 8           	| Functionality - Audio Player - Volume Control | Volume should increase/decrease|                        	|                          	|
+| 9           	| Functionality - Video Player - Play Button  | Video should play|                        	|                          	|
+| 10          	| Functionality - Video Player - Position Slider | Video should go to position selected|                        	|                          	|
+| 11          	| Functionality - Video Player - Volume Control	| Volume should increase/decrease||
+| 12          	| Forms - Submit - Try with a Blank Form  	| Form should not submit and error message above first field should appear|||
+| 13          	| Forms - Submit - Try with Empty Name 	| Form should not submit and error message above first field should appear |||
+| 14          	| Forms - Submit - Try with Empty/Invalid Email| Form should not submit and error message above email field should appear|||
+| 15          	| Forms - Submit - Try with Empty Message 	| Form should not submit and error message above message field should appear|||
+| 16          	| Forms - Clear Form Button  	| Form should be cleared|||
+| 17             |Forms - Submit Valid Form | Form should be submitted | | |
 
 ## Deployment
 
