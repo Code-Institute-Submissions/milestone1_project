@@ -104,7 +104,10 @@ In this section, you should mention all of the languages, frameworks, libraries,
 | 14          	| Forms - Submit - Try with Empty/Invalid Email| Form should not submit and error message above email field should appear|||
 | 15          	| Forms - Submit - Try with Empty Message 	| Form should not submit and error message above message field should appear|||
 | 16          	| Forms - Clear Form Button  	| Form should be cleared|||
-| 17             |Forms - Submit Valid Form | Form should be submitted | | |
+| 17            |Forms - Submit Valid Form | Form should be submitted | | |
+|18             |Responsiveness - Mobile Screensize |Site should switch to mobile view (menu should switch to collapsed view)||
+|19             |Reponsiveness - Tablet Screensize  |Site should switch to tablet view (menu items reduce text size)||
+|20             |Responsiveness - Desktop Screensize|Site should switch to desktop view (menu items float right and are full size)||
 
 ## Deployment
 
