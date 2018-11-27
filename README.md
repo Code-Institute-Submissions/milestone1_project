@@ -41,6 +41,13 @@ The color scheme was generated using a w3 schools tool (See the **Tools** Sectio
 
 
 ### Features Left to Implement
+
+#### Content
+
+##### Proper biographies for each band member, instead of their date of births
+
+This links in with the dropdown's below, as each members biography was a different height, it was hard to get a common height that would make them appear correctly, javascript would again have been able to fix this, this height could have also been set to the tallest element's height.
+
 #### Equal Height for dropdowns
     
 At the moment, the dropdown height's when expanded are all different , this is due to the differing number of words in each lyrics.
