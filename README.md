@@ -82,32 +82,33 @@ In this section, you should mention all of the languages, frameworks, libraries,
     
 ## Testing
 
+All tests were performed on an Acer Iconia One 10 tablet, running Firefox 63.02 for android as well as desktop versions of Internet explorer 11, Firefox version 63.0.3 (64-bit) and google chrome Version 70.0.3538.110 (Official Build) (64-bit)
 
-
-
+### 1st Round of Testing
 
 | Test Number 	| Section of the site 	| What Should Happen 	| What Actually Happened 	| Actions to Take (If Any) 	|
 |-------------	|---------------------	|--------------------	|------------------------	|--------------------------	|
-| 1           	| Navigation  - Home link      | Page should jump to Home section                   	|                        	|                          	|
-| 2           	| Navigation - About us link                  	|  Page should jump to About Us section                  	|        	|            |
-| 3           	| Navigation - Media link                    	|  Page should jump to Media section                  	|           	|                          	|
-| 4           	| Navigation - Contact us link               	|   Page should jump to Contact Us form section   	|           	|                          	|
-| 5           	| Functionality - dropdown                   	| Dropdown should expand  	|                        	|                          	|
-| 6           	| Functionality - Audio Player - Play Button  | Audio linked to the player should play |                        	|                          	|
-| 7           	| Functionality - Audio Player - position slider | Track should go to selected spot within the track|                        	|                          	|
-| 8           	| Functionality - Audio Player - Volume Control | Volume should increase/decrease|                        	|                          	|
-| 9           	| Functionality - Video Player - Play Button  | Video should play|                        	|                          	|
-| 10          	| Functionality - Video Player - Position Slider | Video should go to position selected|                        	|                          	|
-| 11          	| Functionality - Video Player - Volume Control	| Volume should increase/decrease||
-| 12          	| Forms - Submit - Try with a Blank Form  	| Form should not submit and error message above first field should appear|||
-| 13          	| Forms - Submit - Try with Empty Name 	| Form should not submit and error message above first field should appear |||
-| 14          	| Forms - Submit - Try with Empty/Invalid Email| Form should not submit and error message above email field should appear|||
-| 15          	| Forms - Submit - Try with Empty Message 	| Form should not submit and error message above message field should appear|||
-| 16          	| Forms - Clear Form Button  	| Form should be cleared|||
-| 17            |Forms - Submit Valid Form | Form should be submitted | | |
-|18             |Responsiveness - Mobile Screensize |Site should switch to mobile view (menu should switch to collapsed view)||
-|19             |Reponsiveness - Tablet Screensize  |Site should switch to tablet view (menu items reduce text size)||
-|20             |Responsiveness - Desktop Screensize|Site should switch to desktop view (menu items float right and are full size)||
+| 1           	| Navigation  - Home link      | Page should jump to Home section | Page jumped to top, but some lines of the introductory paragraph were blocked	| Review id placement for home link(Approx 2 lines of text)                          	|
+| 2           	| Navigation - About us link|  Page should jump to About Us section | Page went to just above 'the band' section (Same cutoff point as home)|Review id placement and consider if home link is neccessary due to same cutoff point in the text            |
+| 3           	| Navigation - Media link |  Page should jump to Media section | Page jumped to media section(Audio and video)| Not applicable for this test                          	|
+| 4           	| Navigation - Book us link | Page should jump to Contact Us form section|Page jumped to Book Us form| Testing note- initial test link was incorrect, this was corrected when the test was actioned, hence the change in the title within the second column of this table, otherwise, no action is neccessary.	|
+| 5           	| Functionality - dropdown| Dropdown should expand (lyrics dropdowns)  	|Dropdowns expanded on first click/tap and retracted on second |No action neccessary                          	|
+| 6           	| Functionality - Audio Player - Play Button  | Audio linked to the player should play | Audio played when button was clicked/tapped,additionally pause button was tested as part and works| Styling issue noticed on Acer tablet in landscape mode, styling needs to be reviewed for audio controls in this screen size                         	|
+| 7           	| Functionality - Audio Player - position slider | Track should go to selected spot within the track| Track jumped to position selected, however difficulty was noticed with slider on a track that had already finished (tablets only, cannot on desktop) ISSUE- Cannot move position slider on mobiles | Review possible fixes, this might only be possible with javascript                          	|
+| 8           	| Functionality - Audio Player - Volume Control | Volume should increase/decrease| Volume control works in all browsers tested apart from google Chrome                       	| review chrome functionality for this html tag                          	|
+| 9           	| Functionality - Video Player - Play Button  | Video should play| Video played and paused when paused | No actions needed|
+| 10          	| Functionality - Video Player - Position Slider | Video should go to position selected| Video went to position	| No actions needed                          	|
+| 11          	| Functionality - Video Player - Volume Control	| Volume should increase/decrease|Volume increased and decreased| No actions needed
+| 12          	| Forms - Submit - Try with a Blank Form  	| Form should not submit and error message above first field should appear|Error message appeared|No actions needed|
+| 13          	| Forms - Submit - Try with Empty Name 	| Form should not submit and error message above first field should appear |Error message appeared|No actions needed|
+| 14          	| Forms - Submit - Try with Empty/Invalid Email| Form should not submit and error message above email field should appear|Error message appeared|No actions|
+| 15          	| Forms - Submit - Try with Empty Message 	| Form should not submit and error message above message field should appear|Firefox returned 405 not allowed error, form submitted in all other browsers |Review code, possibly missing required attribute for this field|
+| 16          	| Forms - Clear Form Button  	| Form should be cleared|Form was cleared|No actions needed|
+| 17            |Forms - Submit Valid Form | Form should be submitted | 405 not allowed returned on tablet with firefox and chrome, cannot replicate via desktop browser | Investigate if this is known issue with the android version of firefox and chrome |
+|18             |Responsiveness - Mobile Screensize |Site should switch to mobile view (menu should switch to collapsed view)|Screen size switched| No actions needed
+|19             |Reponsiveness - Tablet Screensize  |Site should switch to tablet view (menu items reduce text size)|Screen size switched| No actions needed
+|20             |Responsiveness - Desktop Screensize|Site should switch to desktop view (menu items float right and are full size)|Screen size switched| No actions needed.
+|21             | Functionality - video player - full screen functionality|Video should go full screen into a landscape orientation| Video went full screen| No actions needed |
 
 ## Deployment
 
