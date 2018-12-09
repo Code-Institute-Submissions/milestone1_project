@@ -167,3 +167,5 @@ The following steps were made in order to deploy
 - The photos, video and audio used in this site were obtained from https://github.com/Code-Institute-Org/project-assets/tree/master/stream-1/band-assets
 
 ### Acknowledgements
+
+Many thanks to my dad for helping me test this project.
