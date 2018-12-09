@@ -11,7 +11,7 @@ This is a static web page that is for fans of 'The Monkees' band to view some of
 I went for a single scrolling page design, as while it meant that the initial load time might be slightly longer than if the site was split into multiple pages, the User would have full access to all the content.
 From a coding perspective, it also makes it simpler to maintain, as a link would only need to be changed once, instead of having to be changed on multiple files.
 
-For the general design (See the Design Documents Section), I went with a standard Header and Footer with a menu bar situated just below the header. Initially I did plan for a header image to appear at the top of the page, but after reviewing the planned image ('assets/images/monkees.jpg'),this would not fit with the view that I had.
+For the general design (See the [Design Documents Folder](/designs), I went with a standard Header and Footer with a menu bar situated just below the header. Initially I did plan for a header image to appear at the top of the page, but after reviewing the planned image ('assets/images/monkees.jpg'),this would not fit with the view that I had.
 
 Considering that the main target of this website is for fans, A static header and footer seemed to be the best method, particulaly since there was a permanent link to the booking form in the footer. 
 
