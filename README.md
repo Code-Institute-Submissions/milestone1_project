@@ -46,7 +46,7 @@ The color scheme was generated using a w3 schools tool (See the **Tools** Sectio
 
 ##### Proper biographies for each band member, instead of their date of births
 
-This links in with the dropdown's below, as each members biography was a different height, it was hard to get a common height that would make them appear correctly, javascript would again have been able to fix this, this height could have also been set to the tallest element's height.
+This links in with the dropdown's below, as each members biography was a different height, it was hard to get a common height that would make them appear correctly, javascript would again have been able to fix this, this height could have also been set to the tallest element's height. For this reason I exchanged the 'Bio' section to just list their dates of birth
 
 #### Equal Height for dropdowns
     
@@ -57,7 +57,9 @@ If I had been able to use javascript/JQuery, these could have been made a dynami
 #### Form Functionality
 
 At the moment the contact form does not do anything, with the addition of a backend system, this could be made to send an email, and return a confirmation message to the user, confirming that the email has been sent. 
-        
+
+#### Accessibility
+One feature that can be implemented would be accessiblity via the [ARIA - Accessible Rich Text Applications](https://www.w3.org/WAI/standards-guidelines/aria/) markup      
 
 ## Technologies Used
 
@@ -84,7 +86,7 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 All tests were performed on an Acer Iconia One 10 tablet, running Firefox 63.02 for android as well as desktop versions of Internet explorer 11, Firefox version 63.0.3 (64-bit) and google chrome Version 70.0.3538.110 (Official Build) (64-bit)
 
-### 1st Round of Testing
+### Testing
 
 | Test Number 	| Section of the site 	| What Should Happen 	| What Actually Happened 	| Actions to Take (If Any) 	|
 |-------------	|---------------------	|--------------------	|------------------------	|--------------------------	|
@@ -109,6 +111,17 @@ All tests were performed on an Acer Iconia One 10 tablet, running Firefox 63.02 
 |19             |Reponsiveness - Tablet Screensize  |Site should switch to tablet view (menu items reduce text size)|Screen size switched| No actions needed
 |20             |Responsiveness - Desktop Screensize|Site should switch to desktop view (menu items float right and are full size)|Screen size switched| No actions needed.
 |21             | Functionality - video player - full screen functionality|Video should go full screen into a landscape orientation| Video went full screen| No actions needed |
+
+### Follow up's
+6 and 8 - This is due to each individual `<audio>` tag having different default styling
+
+15 - This was caused by a missing `required` attribute in the `<textarea>` tag
+
+17 - This was caused by a blank action attribute in the form tag, setting this to '/' resolved this
+
+#### Cannot Fix
+
+6 - Due to the styling being different, custom controls would be needed to maintain a constant styling for this point, since this is not possible without javascript, this cannot be fixed at this time.
 
 ## Deployment
 
